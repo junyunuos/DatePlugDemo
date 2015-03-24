@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DatePlugViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
+    //日期插件 demo
+    DatePlugViewController* datePlug=[[DatePlugViewController alloc] init];
+   // UINavigationController* nav=[[UINavigationController alloc] initWithRootViewController:datePlug];
+    
+   
+   [self.navigationController pushViewController:datePlug animated:YES];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

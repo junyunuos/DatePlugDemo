@@ -14,6 +14,14 @@
 		478A282C1A80F58300A8D1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478A282B1A80F58300A8D1D6 /* Images.xcassets */; };
 		478A282F1A80F58300A8D1D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478A282D1A80F58300A8D1D6 /* LaunchScreen.xib */; };
 		478A283B1A80F58300A8D1D6 /* DatePlugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A283A1A80F58300A8D1D6 /* DatePlugDemoTests.m */; };
+		478A284F1A80F62200A8D1D6 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A28461A80F62200A8D1D6 /* DateCell.m */; };
+		478A28501A80F62200A8D1D6 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478A28471A80F62200A8D1D6 /* DateCell.xib */; };
+		478A28511A80F62200A8D1D6 /* DatePlug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478A28481A80F62200A8D1D6 /* DatePlug.storyboard */; };
+		478A28521A80F62200A8D1D6 /* DatePlug.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478A28491A80F62200A8D1D6 /* DatePlug.xib */; };
+		478A28531A80F62200A8D1D6 /* DatePlugCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A284B1A80F62200A8D1D6 /* DatePlugCell.m */; };
+		478A28541A80F62200A8D1D6 /* DatePlugCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478A284C1A80F62200A8D1D6 /* DatePlugCell.xib */; };
+		478A28551A80F62200A8D1D6 /* DatePlugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A284E1A80F62200A8D1D6 /* DatePlugViewController.m */; };
+		478A28581A80F69D00A8D1D6 /* UIColor+DSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A28571A80F69D00A8D1D6 /* UIColor+DSColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		478A28341A80F58300A8D1D6 /* DatePlugDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePlugDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478A28391A80F58300A8D1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		478A283A1A80F58300A8D1D6 /* DatePlugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePlugDemoTests.m; sourceTree = "<group>"; };
+		478A28451A80F62200A8D1D6 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		478A28461A80F62200A8D1D6 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
+		478A28471A80F62200A8D1D6 /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		478A28481A80F62200A8D1D6 /* DatePlug.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DatePlug.storyboard; sourceTree = "<group>"; };
+		478A28491A80F62200A8D1D6 /* DatePlug.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePlug.xib; sourceTree = "<group>"; };
+		478A284A1A80F62200A8D1D6 /* DatePlugCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePlugCell.h; sourceTree = "<group>"; };
+		478A284B1A80F62200A8D1D6 /* DatePlugCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePlugCell.m; sourceTree = "<group>"; };
+		478A284C1A80F62200A8D1D6 /* DatePlugCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePlugCell.xib; sourceTree = "<group>"; };
+		478A284D1A80F62200A8D1D6 /* DatePlugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePlugViewController.h; sourceTree = "<group>"; };
+		478A284E1A80F62200A8D1D6 /* DatePlugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePlugViewController.m; sourceTree = "<group>"; };
+		478A28561A80F69D00A8D1D6 /* UIColor+DSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DSColor.h"; sourceTree = "<group>"; };
+		478A28571A80F69D00A8D1D6 /* UIColor+DSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DSColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,7 @@
 		478A281D1A80F58300A8D1D6 /* DatePlugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				478A28441A80F62200A8D1D6 /* Date */,
 				478A28221A80F58300A8D1D6 /* AppDelegate.h */,
 				478A28231A80F58300A8D1D6 /* AppDelegate.m */,
 				478A28251A80F58300A8D1D6 /* ViewController.h */,
@@ -117,6 +138,25 @@
 				478A28391A80F58300A8D1D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478A28441A80F62200A8D1D6 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				478A28561A80F69D00A8D1D6 /* UIColor+DSColor.h */,
+				478A28571A80F69D00A8D1D6 /* UIColor+DSColor.m */,
+				478A28451A80F62200A8D1D6 /* DateCell.h */,
+				478A28461A80F62200A8D1D6 /* DateCell.m */,
+				478A28471A80F62200A8D1D6 /* DateCell.xib */,
+				478A28481A80F62200A8D1D6 /* DatePlug.storyboard */,
+				478A28491A80F62200A8D1D6 /* DatePlug.xib */,
+				478A284A1A80F62200A8D1D6 /* DatePlugCell.h */,
+				478A284B1A80F62200A8D1D6 /* DatePlugCell.m */,
+				478A284C1A80F62200A8D1D6 /* DatePlugCell.xib */,
+				478A284D1A80F62200A8D1D6 /* DatePlugViewController.h */,
+				478A284E1A80F62200A8D1D6 /* DatePlugViewController.m */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +242,10 @@
 				478A282A1A80F58300A8D1D6 /* Main.storyboard in Resources */,
 				478A282F1A80F58300A8D1D6 /* LaunchScreen.xib in Resources */,
 				478A282C1A80F58300A8D1D6 /* Images.xcassets in Resources */,
+				478A28521A80F62200A8D1D6 /* DatePlug.xib in Resources */,
+				478A28511A80F62200A8D1D6 /* DatePlug.storyboard in Resources */,
+				478A28501A80F62200A8D1D6 /* DateCell.xib in Resources */,
+				478A28541A80F62200A8D1D6 /* DatePlugCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478A28551A80F62200A8D1D6 /* DatePlugViewController.m in Sources */,
+				478A28531A80F62200A8D1D6 /* DatePlugCell.m in Sources */,
 				478A28271A80F58300A8D1D6 /* ViewController.m in Sources */,
+				478A28581A80F69D00A8D1D6 /* UIColor+DSColor.m in Sources */,
 				478A28241A80F58300A8D1D6 /* AppDelegate.m in Sources */,
 				478A28211A80F58300A8D1D6 /* main.m in Sources */,
+				478A284F1A80F62200A8D1D6 /* DateCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
